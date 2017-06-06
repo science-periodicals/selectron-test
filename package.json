@@ -1,0 +1,35 @@
+{
+  "name": "selectron-test",
+  "version": "1.0.0",
+  "description": "Simple testing of HTML structures based on CSS selectors",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "scienceai"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scienceai/selectron-test.git"
+  },
+  "keywords": [
+    "CSS",
+    "test",
+    "assert",
+    "HTML",
+    "DOM"
+  ],
+  "author": "Robin Berjon <robin@berjon.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/scienceai/selectron-test/issues"
+  },
+  "homepage": "https://github.com/scienceai/selectron-test",
+  "devDependencies": {
+    "eslint-config-scienceai": "^2.6.0",
+    "get-dom": "^9.0.0",
+    "mocha": "^3.4.2"
+  },
+  "dependencies": {}
+}
